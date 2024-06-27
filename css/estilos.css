@@ -57,6 +57,10 @@ p{text-align: "center"; color: #381500;}
     cursor: pointer;
 }
 
+#foto{
+    padding: 15px;
+}
+
 .boton{
     height: 45px;
     line-height: 45px;
