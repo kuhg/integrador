@@ -1,5 +1,5 @@
 async function obtenerDatos(){
-    const response = await fetch("../js/datos.json");
+    const response = await fetch("https://kuhg.github.io/datosintegrador/datos.json");
     const json = await response.json();
     json.datos.forEach(element => {
         casas.push(element);
